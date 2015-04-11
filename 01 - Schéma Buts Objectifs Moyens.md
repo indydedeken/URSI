@@ -7,11 +7,12 @@
 		- _[lien avec (Suivi des habitude de consommations des services)]_
 	- Verdir son image (_?relation avec le but?_)
 		- Communication sur les actions réalisées 
+		- Sensibiliation des chauffeurs
 		- _[lien avec (Acheter des véhicules à faible consommation)]_
 	- Mettre en place un système transversal à l'ensemble des S.I. 
 		- Déployer des tableaux de bord, reporting
 		- Déployer un SRM
-		- Déployer des référentiels
+		- Organiser des référentiels
 			
 - **Adapter la politique commerciale**
 	- Développer une politique commerciale proactive
@@ -55,9 +56,10 @@
 
 - Développement d'application mobile
 - Communication sur les actions réalisées 
+- Sensibiliation des chauffeurs
 - Déployer des tableaux de bord, reporting
 - Déployer un SRM
-- Déployer des référentiels
+- Organiser des référentiels
 - Suivi des contrats
 - Suivi des habitude de consommations des services
 - Développer les offres business
