@@ -29,18 +29,22 @@ L'entreprise est globalement organisée par continent :
 Cependant les compagnies/agences (indépendantes) sont présentes dans les grandes villes.
 
 
-###2.1.2. Acteurs
+###2.1.2. Acteurs et entités
 Présente les acteurs qui peuvent se retrouver dans le diagramme.
 - Client
 - Fournisseur (Voiture)
-- Chauffeurs (_Souhait de recruter des indépendants donc non-salariés_)
-- Compagnies/employés
-	- Service financier
-	- Service RH
-	- Service marketing
-	- Hotline de réservation
-	- Service des achats
-	- Installateurs de voiture
+
+- Siège social (Europe)
+	- Direction de l'Organisation (DO)
+	- Siège pays
+		- Service Financier (DF)
+		- Service RH (RH)
+		- Service marketing (MA)
+		- Service des achats (AC)
+		- Agence villes
+			- Installateurs de voiture
+			- Hotline de réservation
+			- Chauffeurs (_Souhait de recruter des indépendants donc non-salariés_)
 
 
 ##2.2. Applications
@@ -69,7 +73,7 @@ Présente les acteurs qui doivent se retrouver dans le diagramme.
 
 ---
 
-#3. Source : 
+#3. Source
 
 - [http://forge.modelio.org/](http://forge.modelio.org/projects/togaf-user-manual-english/wiki/Modeling_Application_modeling)
 - [http://www.togaf.info/](http://www.togaf.info/togaf9/togafSlides9/TOGAF-V9-Sample-Catalogs-Matrics-Diagrams-v2.pdf)
