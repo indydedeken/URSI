@@ -31,50 +31,47 @@ Cependant les compagnies/agences (indépendantes) sont présentes dans les grand
 
 ###2.1.2. Acteurs et entités
 Présente les acteurs qui peuvent se retrouver dans le diagramme.
-- Client
-- Fournisseur (Voiture)
 
-- Siège social (Europe)
+- Siège monde (Europe)
+	- Direction Monde (DM)
 	- Direction de l'Organisation (DO)
-	- Siège pays
-		- Service Financier (DF)
-		- Service RH (RH)
-		- Service marketing (MA)
-		- Service des achats (AC)
-		- Agence villes
-			- Installateurs de voiture
-			- Hotline de réservation
-			- Chauffeurs (_Souhait de recruter des indépendants donc non-salariés_)
+	- Direction des finances (DF)
+	- Direction du contrôle de gestion (DCG)
+	- Direction Informatique (DI)
+	- Direction Marketing & Reclation Client (SMRC)
+
+- Siège pays
+	- Service Financier (SFI)
+	- Service RH (SRH)
+	- Service des achats (SAC)
+	- Service de réservation (SRE)
+	- Service des équipements (SEQ)	
+
+- Agence villes
+	- Conseillers (CON)
+	- Chauffeurs (_Souhait de recruter des indépendants donc non-salariés_)
 
 
-##2.2. Applications
-### 2.2.1 Liste des applications
-Présente les acteurs qui doivent se retrouver dans le diagramme.
-- SRM (Supplier Relationship Management)
-- Gestion des véhicules
-- Référentiels (? intégré à Gestion des véhicules ?)
-- Système d’archivage électronique pour la conservation des contrats
-- Application de réservation de course
+##2.2. Activités
+###2.2.1. Liste des activités
+####2.2.1.1. Management
+- Prendre les nouvelles orientations stratégiques (DM)
+- Préconiser des évolutions, contrôler la mise en application (DO)
+- Accompagnement des compagnies/uniformisation (DO)
+- Déployement de solutions techniques informatiques (DI)
+- Consolidation et synthèse des informations comptables (DF)
+- Réalisation d'études (DCG)
+- Gérer les offres particuliers/business (SMRC)
+- Gestion de la relation client & marketing (SMRC)
 
-### 2.2.2 Matrice des applications
+####2.2.1.2. Métier
+- Accueil en agence (CON)
+- Suivi du service de transport (SMRC)
+- Assurer le service de transport (Chauffeur)
+- Gérer les réservations clients (SRE)
 
-| Application | Type d'ut. | Interne/Externe | Localisation de l'ut. | Unité  |
-|-------------|------------|----------------|-----------------------|--------|
-| SRM         | Admin, Super-utilisateur, Développeurs | Interne | Europe (siège) | Service des achats |
-| Gestion des véhicules | Compagnies | Interne | Compagnies des pays | Service des achats, Compagnies |
-| Référentiels | Administrateur BDD | Interne | Datacenter des pays | Service achat, Service marketing, service financier |
-| Système archivage contrats | Service juridique | Interne | Europe (siège) | Service financier |
-| Application de réservation | Developpeurs | Externe | Global | Service marketing |
-
-
-* Précision sur le tableau : 
-	- SRM : l'application est utilisée en interne même si elle permet de communiquer avec les frs.
-
-
----
-
-#3. Source
-
-- [http://forge.modelio.org/](http://forge.modelio.org/projects/togaf-user-manual-english/wiki/Modeling_Application_modeling)
-- [http://www.togaf.info/](http://www.togaf.info/togaf9/togafSlides9/TOGAF-V9-Sample-Catalogs-Matrics-Diagrams-v2.pdf)
-- [http://www.togaf-modeling.org](http://www.togaf-modeling.org/models/application-architecture-menu/application-and-user-location-diagrams-menu.html)
+####2.2.1.3. Support
+- Gestion RH (chauffeurs indé) (SRH)
+- Équiper les véhicules (SEQ)
+- Achat, maintenance et revente des véhicules (SAC)
+- Gestion de la trésorerie des compagnies (SFI)
