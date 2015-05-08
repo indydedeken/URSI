@@ -9,7 +9,7 @@ Dossier/fichier     |   Description
 --------|------
 00 - Préparation des diagrammes   | (draft de différents diagramme
 01 - Diagrammes finaux | diagrammes finaux au format image
-2015-etude-de-cas-tat-v1.1 | Consigne de l'étude de cas
+2015-etude-de-cas-tat-v1.1 | Consignes de l'étude de cas
 Rapport Projet UDSI.docx | Rapport de fin de projet 
 
 ## Source
